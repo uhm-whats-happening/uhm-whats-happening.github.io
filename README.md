@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Meteor Mayhem (https://meteor-mayhem.github.io/)
 
 You can use the [editor on GitHub](https://github.com/meteor-mayhem/meteor-mayhem.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
