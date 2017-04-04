@@ -35,3 +35,11 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Goals of the Project
+
+### Features that the System will Provide
+
+We plan to implement features as explained on this [page](https://dtokita.github.io/essays/final-project-idea.html). 
+
+### Screenshots of Mockups
