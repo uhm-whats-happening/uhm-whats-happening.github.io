@@ -38,6 +38,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Goals of the Project
 
+- Demonstrate the skills and techniques that we have learned in this class (ICS 314)
+- Gain experinence in working in a team setting
+
 ### Features that the System will Provide
 
 We plan to implement features as explained on this [page](https://dtokita.github.io/essays/final-project-idea.html). 
