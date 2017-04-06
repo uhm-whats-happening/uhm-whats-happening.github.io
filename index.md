@@ -21,25 +21,27 @@ Upon arrival to the site, you are created by the landing page below.
 
 ![Landing Page](/images/landing-page.png)
 
-From here, the user has the option of logging in with their UH ID or continuing as a guest. 
+From here, the user has the option of logging in with their UH ID or continuing as a guest. The image below is what we plan to design.
 
-(insert screenshot of login)
+![UH Cas](images/bowfolios-cas.png)
 
-Both the logged-in and non-logged in users proceed to the homepage. 
 
-(insert screenshot of homepage, for both logged in and non-logged in users)
 
-Logged-in users have the option of listing an event, saving an event, sharing an event, or filtering the events themselves. Non-logged-in users only have the option of filtering and sharing events.
+Both the logged-in and non-logged in users proceed to the homepage. Below is what we plan to model.
 
-(insert all of the options above)
+![Homepage Example](images/homepage-example.jpg)
 
-You can view your saved events:
+Logged-in users have the option of listing an event, saving an event, sharing an event, or filtering the events themselves. Non-logged-in users only have the option of filtering and sharing events. Below is what we plan to model for listing an event.
 
-(insert screenshot of saved-event page)
+![Add Event Example](images/add-event-example.png)
 
-Edit a listing that you have previously made:
+You can view your saved events (what we plan to model is below):
 
-(insert screenshot of edit event page)
+![Saved Events Example](images/saved-events-example.jpg)
+
+Edit a listing that you have previously made (what we plan to model is below):
+
+![Add Event Example](images/add-event-example.png)
 
 ## Installation
 
