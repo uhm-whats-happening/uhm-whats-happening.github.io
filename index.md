@@ -1,4 +1,6 @@
-# Table of contents
+# What's Happening
+
+## Table of contents
 
 * [About What's Happening](#about-what's-happening)
   * [UH Manoa Community Problem](#uh-manoa-community-problem)
