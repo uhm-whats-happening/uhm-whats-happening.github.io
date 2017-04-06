@@ -13,13 +13,13 @@
 
 ##### UH Manoa Community Problem
 
-_There isn’t a consolidated place where all events on campus can be posted and viewed easily. Event postings are scattered across different media. As a result, promoters have to work hard to get the word out, and consumers have to work hard to search for these events.
+There isn’t a consolidated place where all events on campus can be posted and viewed easily. Event postings are scattered across different media. As a result, promoters have to work hard to get the word out, and consumers have to work hard to search for these events.
 
 Here's an example:
 
 ![Bulletin Board](images/crowded-bulletin-board.jpg)
 
-Try finding a flyer for the 2014 film festival. It's not very obvious, is it?
+Try finding a flyer for the film festival. It's not very obvious, is it?
 
 ##### The What's Happening Solution
 
