@@ -19,7 +19,7 @@ An application where students can both post and view events that are scheduled o
 
 Upon arrival to the site, you are created by the landing page below. 
 
-(insert screenshot of landing page)
+![Landing Page](/images/landing-page.png)
 
 From here, the user has the option of logging in with their UH ID or continuing as a guest. 
 
