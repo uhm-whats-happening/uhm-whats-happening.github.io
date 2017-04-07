@@ -19,7 +19,7 @@ Here's an example:
 
 ![Bulletin Board](images/crowded-bulletin-board.jpg)
 
-Try finding a flyer for the film festival. It's not very obvious, is it?
+Try finding the flyer for the film festival. It's not very obvious, is it?
 
 ##### The What's Happening Solution
 
