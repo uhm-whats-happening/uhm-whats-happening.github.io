@@ -12,7 +12,7 @@
 
 ## About What's Happening
 
-##### UH Manoa Community Problem
+### UH Manoa Community Problem
 
 There isn’t a consolidated place where all events on campus can be posted and viewed easily. Event postings are scattered across different media. As a result, promoters have to work hard to get the word out, and consumers have to work hard to search for these events.
 
@@ -22,9 +22,9 @@ Here's an example:
 
 Try finding the flyer for the film festival. It's not very obvious, is it?
 
-##### The What's Happening Solution
+### The What's Happening Solution
 
-An application where students can both post and view events that are scheduled or happening on campus. We are live [here](http://whats-happening-uhm.meteorapp.com/)!
+An application where students can both post and view events that are scheduled or happening on campus.
 
 Upon arrival to the site, you are created by the landing page below.
 
@@ -82,7 +82,7 @@ Last but not least, visit the application at [http://localhost:3000](http://loca
 
 The development process for What's Happening conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. Our project is broken into _Milestones_. Each Milestone consists of _issues_ which correspond to 2-3 day tasks.
 
-##### Milestone 1: Mock-up Development
+### Milestone 1: Mock-up Development
 
 This milestone started on April 5, 2017 and ended on April 13, 2017.
 
@@ -112,7 +112,7 @@ Each issue was implemented as its own branch, and merged into master when finish
 
 ![M1 Network Graph](images/m1-network-graph.png)
 
-##### Milestone 2: Authentication, Collection, and Google Maps Integration
+### Milestone 2: Authentication, Collection, and Google Maps Integration
 
 This milestone started on April 13, 2017 and will end on April 25, 2017.
 
