@@ -23,25 +23,24 @@ Try finding the flyer for the film festival. It's not very obvious, is it?
 
 ##### The What's Happening Solution
 
-An application where students can both post and view events that are scheduled or happening on campus. 
+An application where students can both post and view events that are scheduled or happening on campus.
 
-Upon arrival to the site, you are created by the landing page below. 
+Upon arrival to the site, you are created by the landing page below.
 
 ![Landing Page](images/landing-page.png)
 
 From here, the user has the option of logging in with their UH ID or continuing as a guest. The image below is what we plan to design.
 
-![UH Cas](images/bowfolios-cas.png)
-
-
+![UH Cas](images/whats-happening-cas.png)
 
 Both the logged-in and non-logged in users proceed to the homepage. Below is what we plan to model.
 
-![Homepage Example](images/homepage-example.jpg)
+![Homepage Example](images/homepage.png)
 
 Logged-in users have the option of listing an event, saving an event, sharing an event, or filtering the events themselves. Non-logged-in users only have the option of filtering and sharing events. Below is what we plan to model for listing an event.
 
-![Add Event Example](images/add-event-example.png)
+![Add Event Example](images/add-event-page-1.png)
+![Add Event Example](images/add-event-page-2.png)
 
 You can view your saved events (what we plan to model is below):
 
@@ -49,7 +48,7 @@ You can view your saved events (what we plan to model is below):
 
 Edit a listing that you have previously made (what we plan to model is below):
 
-![Add Event Example](images/add-event-example.png)
+![Add Event Example](images/add-event-page1.png)
 
 ## Installation
 
@@ -73,7 +72,7 @@ Last but not least, visit the application at [http://localhost:3000](http://loca
 
 ## Development History
 
-The development process for What's Happening conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. Our project is broken into _Milestones_. Each Milestone consists of _issues_ which correspond to 2-3 day tasks. 
+The development process for What's Happening conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. Our project is broken into _Milestones_. Each Milestone consists of _issues_ which correspond to 2-3 day tasks.
 
 ##### Milestone 1: Mock-up Development
 
@@ -94,4 +93,3 @@ Milestone 1 consists of three issues, and our progress is managed with the [What
 (inserted finished GitHub picture of Project M1 here)
 
 Each issue will be implemented as its own branch, and merged into master when finished.
-
