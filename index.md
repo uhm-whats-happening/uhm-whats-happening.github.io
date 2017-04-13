@@ -48,15 +48,15 @@ To add an event, you click `Add Event` in the menu bar.
 
 ![Add Event Example](images/add-event-page-2.png)
 
-To edit a listing you posted earlier, click `Edit Events` to take you to a list of your events (not yet made) or edit the event in your `My Events` page.
+You can view your saved and listed events by clicking `My Events`.
+
+![Profile Page](images/profile-page.png)
+
+To edit a listing you posted earlier, edit the event in your `My Events` page.
 
 ![Edit Event Example](images/edit-event-page.png)
 
 ![Edit Event 2 Example](images/edit-event-2-page.png)
-
-You can view your saved events by clicking `My Events`.
-
-![Profile Page](images/profile-page.png)
 
 ## Installation
 
@@ -102,30 +102,26 @@ Mock-ups for the pages below were implemented during M1:
 
 Milestone 1 was implemented as [What's Happening GitHub Milestone M1](https://github.com/meteor-mayhem/whats-happening-uhm/milestone/1).
 
-(insert finished GitHub picture of Milestone here)
+
 
 Milestone 1 consists of six issues, and our progress was managed with the [What's Happening GitHub Project M1](https://github.com/whats-happening-uhm/projects/1)
 
-(inserted finished GitHub picture of Project M1 here)
+![M1 Finished Milestone](images/m1-finished-milestone.png)
 
 Each issue was implemented as its own branch, and merged into master when finished.
 
-##### Milestone 2: Basic Functionality
+![M1 Network Graph](images/m1-network-graph.png)
+
+##### Milestone 2: Authentication, Collection, and Google Maps Integration
 
 ##### This milestone started on April 13, 2017 and will end on April 25, 2017.
 
-The goal of Milestone 2 was to...
+The goal of Milestone 2 is to integrate UH CAS authentication and Google Maps to our app, as well as create and tie Profile and Event collections into our UI. We will also be adding a new page for first-time users to set some preferences.
 
-The following pages will be given functionality:
-
-(insert m)
+Users will only be able to log in using their UH account, meaning that our users won't have to remember a new password to use our service. We are including the Google Maps API to make selecting a location for an event more interactive with the user. We are also creating a Profile collection to use with a user's profile and when adding an event, as well as an Event collection to use with the homepage and when editing an event.
 
 Milestone 2 is being implemented as [What's Happening GitHub Milestone M2](https://github.com/whats-happening-uhm/whats-happening-uhm/milestone/2).
 
-(insert finished GitHub picture of Milestone 2 here)
-
-Milestone 2 consists of several issues, and our progress is managed with the [What's Happening GitHub Project M2](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/1)
-
-(inserted finished GitHub picture of Project M2 here)
+Milestone 2 consists of several issues, and our progress is managed with the [What's Happening GitHub Project M2](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/2)
 
 Each issue was implemented as its own branch, and merged into master when finished.
