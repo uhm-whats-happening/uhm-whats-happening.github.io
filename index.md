@@ -8,6 +8,7 @@
 * [Installation](#installation)
 * [Development History](#development-history)
   * [Milestone 1: Mock-up Development](#milestone-1-mock-up-development)
+  * [Milestone 2: Basic Functionality](#milestone-2-basic-functionality)
 
 ## About What's Happening
 
@@ -29,26 +30,33 @@ Upon arrival to the site, you are created by the landing page below.
 
 ![Landing Page](images/landing-page.png)
 
-From here, the user has the option of logging in with their UH ID or continuing as a guest. The image below is what we plan to design.
-
-![UH Cas](images/whats-happening-cas.png)
-
-Both the logged-in and non-logged in users proceed to the homepage. Below is what we plan to model.
+Upon clicking `Find Out What's Happening`, you proceed to the homepage. 
 
 ![Homepage Example](images/homepage.png)
 
-Logged-in users have the option of listing an event, saving an event, sharing an event, or filtering the events themselves. Non-logged-in users only have the option of filtering and sharing events. Below is what we plan to model for listing an event.
+You are currently not logged in, and are only able to view the listings. To login, you click the `Account` item in the menu bar.
 
-![Add Event Example](images/add-event-page-1.png)
+![UH Cas](images/whats-happening-cas.png)
+
+You now have the option of listing an event, saving an event to their profile, sharing an event, or filtering the events themselves. The difference is shown in the menu bar.
+
+![Add Event Example](images/home-page-logged-in.png)
+
+To add an event, you click `Add Event` in the menu bar.
+
+![Add Event Example](images/add-event-page.png)
+
 ![Add Event Example](images/add-event-page-2.png)
 
-You can view your saved events (what we plan to model is below):
+To edit a listing you posted earlier, click `Edit Events` to take you to a list of your events (not yet made) or edit the event in your `My Events` page.
 
-![Saved Events Example](images/saved-events-example.jpg)
+![Edit Event Example](images/edit-event-page.png)
 
-Edit a listing that you have previously made (what we plan to model is below):
+![Edit Event 2 Example](images/edit-event-2-page.png)
 
-![Add Event Example](images/add-event-page-1.png)
+You can view your saved events by clicking `My Events`.
+
+![Profile Page](images/profile-page.png)
 
 ## Installation
 
@@ -76,20 +84,48 @@ The development process for What's Happening conformed to [Issue Driven Project 
 
 ##### Milestone 1: Mock-up Development
 
-This milestone started on April 5, 2017 and will end on April 13, 2017.
+This milestone started on April 5, 2017 and ended on April 13, 2017.
 
-The goal of Milestone 1 is to create a working landing page and several HTML pages to provide a mock-up of the pages in the system. This mock-up is being created as a Meteor app, meaning that each page exists as a template and FlowRouter handles the routing to pages.
+The goal of Milestone 1 was to create a working landing page and several HTML pages to provide a mock-up of the pages in the system. The mock-up was created as a Meteor app, meaning that each page existed as a template and FlowRouter handled the routing to pages.
 
-Mock-ups for the pages below "were" implemented during M1:
+Mock-ups for the pages below were implemented during M1:
 
-(insert screenshots of our mockups here)
+<img width="200px" src="images/landing-page.png"/>
 
-Milestone 1 was implemented as [What's Happening GitHub Milestone M1](https://github.com/meteor-mayhem/whats-happening/milestone/1).
+<img width="200px" src="images/homepage.png"/>
+
+<img width="200px" src="images/add-event-page.png"/>
+
+<img width="200px" src="images/edit-event-page.png"/>
+
+<img width="200px" src="images/profile-page.png"/>
+
+Milestone 1 was implemented as [What's Happening GitHub Milestone M1](https://github.com/meteor-mayhem/whats-happening-uhm/milestone/1).
 
 (insert finished GitHub picture of Milestone here)
 
-Milestone 1 consists of three issues, and our progress is managed with the [What's Happening GitHub Project M1](https://github.com/meteor-mayhem/whats-happening/projects/1)
+Milestone 1 consists of six issues, and our progress was managed with the [What's Happening GitHub Project M1](https://github.com/whats-happening-uhm/projects/1)
 
 (inserted finished GitHub picture of Project M1 here)
 
-Each issue will be implemented as its own branch, and merged into master when finished.
+Each issue was implemented as its own branch, and merged into master when finished.
+
+##### Milestone 2: Basic Functionality
+
+##### This milestone started on April 13, 2017 and will end on April 25, 2017.
+
+The goal of Milestone 2 was to...
+
+The following pages will be given functionality:
+
+(insert m)
+
+Milestone 2 is being implemented as [What's Happening GitHub Milestone M2](https://github.com/whats-happening-uhm/whats-happening-uhm/milestone/2).
+
+(insert finished GitHub picture of Milestone 2 here)
+
+Milestone 2 consists of several issues, and our progress is managed with the [What's Happening GitHub Project M2](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/1)
+
+(inserted finished GitHub picture of Project M2 here)
+
+Each issue was implemented as its own branch, and merged into master when finished.
