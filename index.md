@@ -48,7 +48,7 @@ You can view your saved events (what we plan to model is below):
 
 Edit a listing that you have previously made (what we plan to model is below):
 
-![Add Event Example](images/add-event-page1.png)
+![Add Event Example](images/add-event-page-1.png)
 
 ## Installation
 
