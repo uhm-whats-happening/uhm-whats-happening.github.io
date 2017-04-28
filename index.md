@@ -106,7 +106,7 @@ Milestone 1 was implemented as [What's Happening GitHub Milestone M1](https://gi
 
 Milestone 1 consists of six issues, and our progress was managed with the [What's Happening GitHub Project M1](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/1)
 
-![M1 Finished Milestone](images/m1-finished-milestone.png)
+![M1 Finished Milestone](images/m1-finished-project.png)
 
 Each issue was implemented as its own branch, and merged into master when finished.
 
@@ -114,14 +114,46 @@ Each issue was implemented as its own branch, and merged into master when finish
 
 ### Milestone 2: Authentication, Collection, and Google Maps Integration
 
-This milestone started on April 13, 2017 and will end on April 25, 2017.
+This milestone started on April 13, 2017 and ended on April 27, 2017.
 
-The goal of Milestone 2 is to integrate UH CAS authentication and Google Maps to our app, as well as create and tie Profile and Event collections into our UI. We will also be constructing two mockup pages for first time user setup and editing user's profile (interests, etc...).
+The goal of Milestone 2 is to integrate UH CAS authentication and Google Maps to our app, as well as create and tie Profile and Event collections into our UI. We also constructed two mockup pages for first time user setup and editing user's profile (interests, etc...), and updated the look of our current pages.
 
-Users will only be able to log in using their UH account, meaning that our users won't have to remember a new password to use our service. We are including the Google Maps API to make selecting a location for an event more interactive with the user. We are also creating a Profile collection to use with a user's profile and when adding an event, as well as an Event collection to use with the homepage and when editing an event.
+We updated our landing page to better inform the user what our app does. They can scroll down and see what events look like, modeled like how GitHub is.
+
+
+
+![](images/m2-landing-page-update.png)
+
+![](images/m2-landing-page-update-2.png)
+
+Users will only be able to log in using their UH account by clicking the top left button in the menu bar, meaning that our users won't have to remember a new password to use our service. 
+
+A mockup for the first-time user's page was created, as well as a similar edit-profile page. This will setup their interests, email, organizations, etc...
+
+![](images/m2-user-setup.png)
+
+A visually appealing location and date-time picker were added to the add-event and edit-event pages, but getting info from this was pushed back to M3. 
+
+![](images/date-time-picker.png)
+
+![](images/google-maps-api.png)
+
+A user can view their current profile and interests:
+
+![](images/m2-profile-page.png)
+
+To store our events and profiles, the Events and Profiles collections were created. These hold everything associated with a given event and profile. 
+
+To store the interests and organizations, we have global lists that hold each item. These are in separate files, but are exported when needed.
 
 Milestone 2 is being implemented as [What's Happening GitHub Milestone M2](https://github.com/whats-happening-uhm/whats-happening-uhm/milestone/2).
 
+![](images/m2-milestone-page.png)
+
 Milestone 2 consists of several issues, and our progress is managed with the [What's Happening GitHub Project M2](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/2)
 
+![](images/m2-milestone.png)
+
 Each issue was implemented as its own branch, and merged into master when finished.
+
+![](images/m2-network.png)
