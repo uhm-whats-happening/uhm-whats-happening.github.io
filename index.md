@@ -32,15 +32,13 @@ Upon arrival to the site, you are created by the landing page below.
 
 Upon clicking `Find Out What's Happening`, you proceed to the homepage. 
 
-![Homepage Example](images/homepage.png)
+![Homepage Example](images/home-page.png)
 
 You are currently not logged in, and are only able to view the listings. To login, you click the `Account` item in the menu bar.
 
 ![UH Cas](images/whats-happening-cas.png)
 
 You now have the option of listing an event, saving an event to their profile, sharing an event, or filtering the events themselves. The difference is shown in the menu bar.
-
-![Add Event Example](images/home-page-logged-in.png)
 
 To add an event, you click `Add Event` in the menu bar.
 
@@ -92,7 +90,7 @@ Mock-ups for the pages below were implemented during M1:
 
 <img width="200px" src="images/landing-page.png"/>
 
-<img width="200px" src="images/homepage.png"/>
+<img width="200px" src="images/home-page.png"/>
 
 <img width="200px" src="images/add-event-page.png"/>
 
