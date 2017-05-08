@@ -2,7 +2,7 @@ title: What's Happening
 description: An application for viewing all UH Manoa related events.
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-cayman
+theme: jekyll-theme-tactile
 
 gems:
   - jekyll-mentions
