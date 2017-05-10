@@ -44,13 +44,13 @@ An application where students can both post and view events that are scheduled o
 
 Upon arrival to the site, you are created by the landing page below.
 
-![Landing Page](images/landing-page.png)
+![Landing Page](images/landingpage.png)
 
 Upon clicking `Find Out What's Happening`, you proceed to the homepage.
 
-![Homepage Example](images/home-page.png)
+![Homepage Example](images/homepage.png)
 
-You are currently not logged in, and are only able to view the listings. To login, you click the `Account` item in the menu bar.
+You are currently not logged in, and are only able to view the listings. To login, you click the `Login` item in the menu bar.
 
 ![UH Cas](images/whats-happening-cas.png)
 
@@ -58,19 +58,15 @@ You now have the option of listing an event, saving an event to their profile, s
 
 To add an event, you click `Add Event` in the menu bar.
 
-![Add Event Example](images/add-event-page.png)
-
-![Add Event Example](images/add-event-page-2.png)
+![Add Event Example](images/addeventpage.png)
 
 You can view your saved and listed events by clicking `My Events`.
 
-![Profile Page](images/profile-page.png)
+![Profile Page](images/profilepage.png)
 
 To edit a listing you posted earlier, edit the event in your `My Events` page.
 
-![Edit Event Example](images/edit-event-page.png)
-
-![Edit Event 2 Example](images/edit-event-2-page.png)
+![Edit Event Example](images/editeventpage.png)
 
 ## Initial User Study
 
