@@ -337,11 +337,11 @@ Milestone 3 is being implemented as [What's Happening GitHub Milestone M3](https
 
 Milestone 3 consists of several issues, and our progress is managed with the [What's Happening GitHub Project M3](https://github.com/whats-happening-uhm/whats-happening-uhm/projects/3)
 
-![](images/m3-milestone.png)
+![](images/m3-milestone.PNG)
 
 Each issue was implemented as its own branch, and merged into master when finished.
 
-![](images/m3-network.png)
+![](images/m3-network.PNG)
 
 Mock-ups for the pages below were implemented during M3:
 
