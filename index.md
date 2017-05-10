@@ -319,7 +319,9 @@ Each issue was implemented as its own branch, and merged into master when finish
 
 This milestone started on April 28, 2017 and ended on May 9, 2017.
 
-The goal of Milestone 3 was to ensure all pages interact with the Profile and Event collections appropriately. The profile page would pull.... TODO: finish here
+The goal of Milestone 3 was to ensure all pages interact with the Profile and Event collections appropriately.
+
+The pages for adding and editing an event were merged into one, and security was added to prevent unauthorized users from editing non-owned events. The date and location picker are now fully functional. The profile and home pages now display events in the database, and the user can now click the event to view more information in a modal view. The user can now 'star' events and view their starred events. The profile adding/editing pages are now fully functional.
 
 Milestone 3 is being implemented as [What's Happening GitHub Milestone M3](https://github.com/whats-happening-uhm/whats-happening-uhm/milestone/3).
 
