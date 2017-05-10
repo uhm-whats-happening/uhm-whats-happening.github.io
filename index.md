@@ -101,7 +101,11 @@ We requested that they perform the following actions in order:
 
 To summarize the positives, all of the users appreciated the simplistic and minimal UI. They felt it wasn't overwhelming, and that performing all of actions above were intuitive.
 
-Areas of improvement include event filtering/searching and form submission. One user reported that he would've liked some sort of search on the homepage. Two were having trouble trying to submit their events, as the form validation errors were not visible enough.
+Areas of improvement include event filtering/searching and form submission. One user reported that he would've liked some sort of search on the homepage.
+
+Two were having trouble trying to submit their events, as the form validation errors were not visible enough. A suggestion to avoid this issue was to make the screen scroll up to any errors, or to split the page into two pages, so all the fields are visible.
+
+Some users reported having trouble setting up an account. The website still had some bugs that needed to be worked out.
 
 ## Installation
 
