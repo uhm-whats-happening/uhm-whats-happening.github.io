@@ -81,17 +81,33 @@ If you need to edit your profile, click `Edit Profile` in the header.
 
 ## Initial User Study
 
-Users have...
+Our sample consists of reviews from five UH community members. Their backgrounds are:
 
-The general consensus for the UI is...
+1. Computer Engineering Student
+2. Electrical Engineering Student
+3. Biology Graduate, App Developer
+4. Part Time Student, Accountant
+5. Part Time Student, Personal Trainer
 
-etc.
+We requested that they perform the following actions in order:
+
+1. Create and Setup a Profile
+2. Browse Events
+3. Save Events
+4. Attend Events
+5. Create an Event
+6. Edit that Event
+7. Edit their Profile
+
+To summarize the positives, all of the users appreciated the simplistic and minimal UI. They felt it wasn't overwhelming, and that performing all of actions above were intuitive.
+
+Areas of improvement include event filtering/searching and form submission. One user reported that he would've liked some sort of search on the homepage. Two were having trouble trying to submit their events, as the form validation errors were not visible enough.
 
 ## Installation
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, clone our repository [here](https://github.com/meteor-mayhem/whats-happening).
+Second, clone our repository [here](https://github.com/whats-happening-uhm/whats-happening-uhm).
 
 Third, cd into the app/ directory and install libraries with:
 
@@ -242,13 +258,13 @@ The application implements template-based authorization using an If_Authorized t
 
 The config directory is intended to hold settings files. The repository contains no config/settings.json, but the layout of a file can be found here: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
-The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) file prevents a file named settings.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.json and it will not be committed.
+The [.gitignore](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/.gitignore) file prevents a file named settings.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.json and it will not be committed.
 
 ### Quality Assurance
 
 #### ESLint
 
-What's Happening includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+What's Happening includes a [.eslintrc](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
