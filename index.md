@@ -64,6 +64,18 @@ You can view your saved and listed events by clicking `My Events`.
 
 ![Profile Page](images/profilepage.png)
 
+You can click on event to view more information.
+
+![Event Modal](images/eventmodal.png)
+
+To set up your user profile go the the url /user-setup.
+
+![User Setup Page](images/usersetuppage.png)
+
+To edit your user profile click `Edit Profile`.
+
+![Edit Profile Page](images/editprofilepage.png)
+
 To edit a listing you posted earlier, edit the event in your `My Events` page.
 
 ![Edit Event Example](images/editeventpage.png)
