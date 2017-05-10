@@ -19,8 +19,6 @@
   * [Configuration](#configuration)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
-    * [Data model unit tests](#data-model-unit-tests)
-    * [JSDoc](#JSDoc)
 * [Development History](#development-history)
   * [Milestone 1: Mock-up Development](#milestone-1-mock-up-development)
   * [Milestone 2: Basic Functionality](#milestone-2-authentication-collection-and-google-maps-integration)
@@ -40,45 +38,46 @@ Try finding the flyer for the film festival. It's not very obvious, is it?
 
 ### The What's Happening Solution
 
-An application where students can both post and view events that are scheduled or happening on campus.
+An application where students can both post and view events that are scheduled or happening on campus. Below is a guided tour of how a new user might interact with our app.
 
 Upon arrival to the site, you are created by the landing page below.
 
 ![Landing Page](images/landingpage.png)
 
-Upon clicking `Find Out What's Happening`, you proceed to the homepage.
-
-![Homepage Example](images/homepage.png)
-
-You are currently not logged in, and are only able to view the listings. To login, you click the `Login` item in the menu bar.
+New users click the `Sign Up & know What's Happening` button to direct them to the login page. You can also click the `Login` item in the menu bar.
 
 ![UH Cas](images/whats-happening-cas.png)
 
-You now have the option of listing an event, saving an event to their profile, sharing an event, or filtering the events themselves. The difference is shown in the menu bar.
+Upon clicking, you proceed to the homepage.
 
-To add an event, you click `Add Event` in the menu bar.
 
-![Add Event Example](images/addeventpage.png)
 
-You can view your saved and listed events by clicking `My Events`.
-
-![Profile Page](images/profilepage.png)
-
-You can click on event to view more information.
-
-![Event Modal](images/eventmodal.png)
-
-To set up your user profile go the the url /user-setup.
+Upon logging in, you will be greeted with the profile setup below if you are a new user.
 
 ![User Setup Page](images/usersetuppage.png)
 
-To edit your user profile click `Edit Profile`.
+Once you have a profile setup, you are directed to the home-page. If you are not logged in, the same events will be displayed but you will not have the option to list events, save events, or edit your profile in the header bar.
+
+![Homepage Example](images/homepage.png)
+
+Note that you can also get to this page by clicking `Find Out What's Happening` in the landing page, `Browse Events` in the header bar, or `What's Happening` in the header bar.
+
+You can click on event to view more information. From here, you can click the upper right star to save an event, inform the organizer you are attending, or edit the event if you listed it.
+
+![Event Modal](images/eventmodal.png)
+
+To view all public information associated with you, click your UH username in the header bar. You can view all the events you listed, plan-to-attend, or saved by clicking the appropriate tabs.
+
+![Profile Page](images/profilepage.png)
+
+To list an event of your own, click `Add Event` in the header. 
+
+![Add Event Example](images/addeventpage.png)
+
+If you need to edit your profile, click `Edit Profile` in the header.
 
 ![Edit Profile Page](images/editprofilepage.png)
 
-To edit a listing you posted earlier, edit the event in your `My Events` page.
-
-![Edit Event Example](images/editeventpage.png)
 
 ## Initial User Study
 
@@ -342,9 +341,3 @@ Milestone 3 consists of several issues, and our progress is managed with the [Wh
 Each issue was implemented as its own branch, and merged into master when finished.
 
 ![](images/m3-network.PNG)
-
-Mock-ups for the pages below were implemented during M3:
-
-<img width="200px" src="images/addeventpage.png"/>
-<img width="200px" src="images/usersetuppage.png"/>
-<img width="200px" src="images/editprofilepage.png"/>
