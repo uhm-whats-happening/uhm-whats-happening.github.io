@@ -145,7 +145,7 @@ server/
    main.js       # import all the server-side js files.
 ```
 
-## Import conventions
+### Import conventions
 
 This system adheres to the Meteor 1.4 guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
 
@@ -171,7 +171,7 @@ We use this approach to make it more simple to understand what code is loaded an
 
 Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in a given file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
 
-## Naming conventions
+### Naming conventions
 
 This system adopts the following naming conventions:
 
@@ -182,13 +182,13 @@ This system adopts the following naming conventions:
   * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
 
 
-## Data model
+### Data model
 
 The What's Happening data model is implemented in two files: [Events](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/events/events.js) and [Profiles](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/profiles/profiles.js). Both of these contain a MongoDB collection with the same name and export a single variable (Profiles and Events) that provides access to that collection. 
 
 Attached to both collections are schemas which describe what an Event or Profile should hold. Form validation is much simpler this way, as there exists Mongo functions which check the data and returns what exactly what isn't valid.
 
-## CSS
+### CSS
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
@@ -196,7 +196,7 @@ The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://
 
 Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  The landing page has a separate layout for header and body, whose elements are transparent. 
 
-## Routing
+### Routing
 
 For display and navigation among its four pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
 
@@ -213,7 +213,7 @@ What's Happening defines the following routes:
   * The `/edit-profile/<username>` goes to a page where a user can edit their profile information.
 
 
-## Authentication
+### Authentication
 
 For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
 
@@ -221,7 +221,7 @@ When the application is run, the CAS configuration information must be present i
 
 Anyone with a UH account can login and use What's Happening to create a profile and add events. 
 
-## Authorization
+### Authorization
 
 The landing, home, and profile pages are public; anyone can access those pages.
 
@@ -231,15 +231,15 @@ To prevent people from accessing pages they are not authorized to visit, templat
 
 The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js).
 
-## Configuration
+### Configuration
 
 The config directory is intended to hold settings files. The repository contains no config/settings.json, but the layout of a file can be found here: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
 The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) file prevents a file named settings.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.json and it will not be committed.
 
-## Quality Assurance
+### Quality Assurance
 
-### ESLint
+#### ESLint
 
 What's Happening includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
