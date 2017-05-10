@@ -46,7 +46,7 @@ Upon arrival to the site, you are created by the landing page below.
 
 ![Landing Page](images/landing-page.png)
 
-Upon clicking `Find Out What's Happening`, you proceed to the homepage. 
+Upon clicking `Find Out What's Happening`, you proceed to the homepage.
 
 ![Homepage Example](images/home-page.png)
 
@@ -120,7 +120,7 @@ The app/ directory has this top-level structure:
 client/
   lib/           # holds Semantic UI files.
   head.html      # the <head>
-  main.js        # import all the client-side html and js files. 
+  main.js        # import all the client-side html and js files.
 
 imports/
   api/           # Define collection processing code (client + server side)
@@ -140,7 +140,7 @@ node_modules/    # managed by Meteor
 
 public/          
   images/        # holds static images for pages.
-  
+
 server/
    main.js       # import all the server-side js files.
 ```
@@ -167,9 +167,9 @@ import '/imports/ui/components/landing';
 
 Apart from the last line that imports style.css directly, the other lines all invoke the index.js file in the specified directory.
 
-We use this approach to make it more simple to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories. 
+We use this approach to make it more simple to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories.
 
-Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in a given file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
+Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in a given file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it.
 
 ### Naming conventions
 
@@ -184,7 +184,7 @@ This system adopts the following naming conventions:
 
 ### Data model
 
-The What's Happening data model is implemented in two files: [Events](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/events/events.js) and [Profiles](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/profiles/profiles.js). Both of these contain a MongoDB collection with the same name and export a single variable (Profiles and Events) that provides access to that collection. 
+The What's Happening data model is implemented in two files: [Events](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/events/events.js) and [Profiles](https://github.com/whats-happening-uhm/whats-happening-uhm/blob/master/app/imports/api/profiles/profiles.js). Both of these contain a MongoDB collection with the same name and export a single variable (Profiles and Events) that provides access to that collection.
 
 Attached to both collections are schemas which describe what an Event or Profile should hold. Form validation is much simpler this way, as there exists Mongo functions which check the data and returns what exactly what isn't valid.
 
@@ -192,9 +192,9 @@ Attached to both collections are schemas which describe what an Event or Profile
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
-The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory). 
+The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory).
 
-Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  The landing page has a separate layout for header and body, whose elements are transparent. 
+Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  The landing page has a separate layout for header and body, whose elements are transparent.
 
 ### Routing
 
@@ -219,7 +219,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file config/settings.json. This file typically holds sensitive information (database account and password) and has not been uploaded to git.
 
-Anyone with a UH account can login and use What's Happening to create a profile and add events. 
+Anyone with a UH account can login and use What's Happening to create a profile and add events.
 
 ### Authorization
 
@@ -227,7 +227,7 @@ The landing, home, and profile pages are public; anyone can access those pages.
 
 The add and edit pages require authorization: you must be logged in (i.e. authenticated) through the UH test CAS server, and the authenticated username returned by CAS must match the username specified in the URL.  So, for example, only the authenticated user `john-cena` can access the pages `http://localhost:3000/edit-profile/john-cena` and  `http://localhost:3000/edit-event/<john-cena's-event-id>`.
 
-To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
+To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions).
 
 The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js).
 
@@ -288,11 +288,11 @@ This milestone started on April 13, 2017 and ended on April 27, 2017.
 
 The goal of Milestone 2 was to integrate UH CAS authentication and Google Maps to our app, as well as create and tie Profile and Event collections into our UI. We also constructed two mockup pages for first time user setup and editing user's profile (interests, etc...), and updated the look of our current pages.
 
-We updated our landing page to better inform the user what our app does. They can scroll down and see what events look like, modeled like how GitHub is. Users will now only be able to log in using their UH account by clicking the top left button in the menu bar, meaning that our users won't have to remember a new password to use our service. 
+We updated our landing page to better inform the user what our app does. They can scroll down and see what events look like, modeled like how GitHub is. Users will now only be able to log in using their UH account by clicking the top left button in the menu bar, meaning that our users won't have to remember a new password to use our service.
 
 To store our events and profiles, the Events and Profiles collections were created. These hold everything associated with a given event and profile. To store the interests and organizations, we have global lists that hold each item. These are in separate files, but are exported when needed.
 
-A location and date-time picker were added to the add-event and edit-event pages, but getting info from this was pushed back to M3. The current profile page was updated to pull data from the Profile collection. A mockup for the first-time user's page was also created, as well as a similar edit-profile page. This will setup their interests, email, organizations, etc... 
+A location and date-time picker were added to the add-event and edit-event pages, but getting info from this was pushed back to M3. The current profile page was updated to pull data from the Profile collection. A mockup for the first-time user's page was also created, as well as a similar edit-profile page. This will setup their interests, email, organizations, etc...
 
 All of the changes made in M2 can be viewed below:
 
@@ -334,3 +334,9 @@ Milestone 3 consists of several issues, and our progress is managed with the [Wh
 Each issue was implemented as its own branch, and merged into master when finished.
 
 ![](images/m3-network.png)
+
+Mock-ups for the pages below were implemented during M3:
+
+<img width="200px" src="images/addeventpage.png"/>
+<img width="200px" src="images/usersetuppage.png"/>
+<img width="200px" src="images/editprofilepage.png"/>
