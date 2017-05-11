@@ -38,7 +38,7 @@ Try finding the flyer for the film festival. It's not very obvious, is it?
 
 ### The What's Happening Solution
 
-An application where students can both post and view events that are scheduled or happening on campus. You can visited the website live [here](http://whats-happening-uhm.meteorapp.com)! Below is a guided tour of how a new user might interact with our app.
+An application where students can both post and view events that are scheduled or happening on campus. You can visit the website live [here](http://whats-happening-uhm.meteorapp.com)! Below is a guided tour of how a new user might interact with our app.
 
 Upon arrival to the site, you are created by the landing page below.
 
